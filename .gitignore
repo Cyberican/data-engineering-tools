@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Local generated files
+*.log
+tmp/**
+backups/**
+refactoring/refactored
+

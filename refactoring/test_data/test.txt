@@ -1,0 +1,13 @@
+# [hamster]
+
+if ( open === true )	
+	puts "Run this code" 
+else
+	err "Unable to find variable 'open'"               
+   
+
+select option:
+ 1: puts "hello world" %brk%
+ 2: puts "bye world" %brk%				
+end select
+
