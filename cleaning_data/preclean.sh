@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-set -x
-
 target_dir="dataset"
 target_encoding='utf-8'
 
@@ -71,5 +69,3 @@ done
 case $_action in
 	refactor|encoding) refactor_encoding ${_files[@]};;
 esac
-
-
