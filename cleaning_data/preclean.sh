@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -x
 
 target_dir="dataset"
 target_encoding='utf-8'
@@ -20,7 +21,7 @@ refactor_encoding(){
 	[ ! -d "${target_dir}" ] && mkdir -v "${target_dir}"
 	for srcfile in ${@}
 	do
-		target_file=$(echo $srcfile | tr [:upper:] [:lower:])
+		target_file=$(basename "${srcfile}" | tr [:upper:] [:lower:])
 		_currentEncoding=$(file -i ${srcfile} | awk '{print $3}' | cut -d'=' -f2 | tr [:lower:] [:upper:])
 		printf "Changing Encoding from ${_currentEncoding} ${srcfile} to $target_encoding -> ${target_dir}/${target_file}\n"
 		# Example:  iconv -f ISO-8859-1 -t UTF-8//TRANSLIT "${srcfile}" -o ${target}/a.csv
