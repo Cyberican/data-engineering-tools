@@ -132,5 +132,5 @@ dmypy.json
 *.log
 tmp/**
 backups/**
-refactoring/refactored
-
+refactoring/refactored/**
+organizing_files/example_files/**
