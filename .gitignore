@@ -136,3 +136,6 @@ refactoring/refactored/**
 organizing_files/example_files/**
 misc/temp/**
 **/source/**
+cleaning_sessions/cleaning/**
+cleaning_sessions/initial_dataset/**
+cleaning_sessions/.archives/**
