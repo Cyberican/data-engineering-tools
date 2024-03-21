@@ -1,4 +1,12 @@
 # Local files
 config/**
-anonymiser_data/**
-anonymizer_data/**
+v1/anonymiser_data/**
+v1/anonymizer_data/**
+v1/initial_dataset/**
+v1/cleaning/**
+v2/initial_dataset/**
+v2/cleaning/**
+
+
+# Deleted files
+Trash/**
