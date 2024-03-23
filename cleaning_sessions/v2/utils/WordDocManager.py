@@ -28,6 +28,7 @@ class WordDocManager:
         namespace = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
         paragraphs = []
         # Open the .docx file as a ZIP archive
+        print(f"Extracting, data from {file_path}")
         with zipfile.ZipFile(file_path) as docx:
             # Extract the XML content of the document
             with docx.open('word/document.xml') as document_xml:
