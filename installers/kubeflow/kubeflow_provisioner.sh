@@ -3,7 +3,7 @@
 # Ref: https://charmed-kubeflow.io/docs/get-started-with-charmed-kubeflow#heading--install-and-prepare-microk8s
 
 error(){
-	printf "\033[35mError:\t\033[31m${1}\033[0m\n"
+	printf "\033[35mError:\t\033[31m${1}!\033[0m\n"
 	exit 1
 }
 
@@ -79,9 +79,30 @@ extract_val(){
 	printf "${_arg}"
 }
 
+commands(){
+	printf "\033[36mCommands:\033[0m\n"
+	printf "\033[35mInstall Kubeflow\t\033[32m[ install, spinup ]\033[0m\n"
+	printf "\033[35mRemove Kubeflow\t\t\033[32m[ delete, remove ]\033[0m\n"
+	printf "\033[35mConfigure Kubeflow\t\033[32m[ configure ]\033[0m\n"
+}
+
+usage(){
+	printf "\033[36mUsage:\033[0m\n"
+	printf "\033[32m# Install and configure Kubeflow\033[0m\n"
+	printf "\033[35m$0 \033[32m--step=install\033[0m\n"
+	printf "\033[35m$0 \033[32m--step=configure\033[0m\n"
+	echo;
+	printf "\033[32m# Remove Kubeflow\033[0m\n"
+	printf "\033[35m$0 \033[32m--step=remove\033[0m\n"
+}
+
 help_menu(){
-	printf "\033[36mKubeflow Provisioner\033[0m\n"
-	printf "\033[35mExecute Step\t\32m[ --step=COMMAND, step:COMMAND ]\n"
+	printf "\033[36mKubeflow Provisioner Helper\033[0m\n"
+	printf "\033[35mExecute Step\t\033[32m[ --step=COMMAND, step:COMMAND ]\n"
+	echo;
+	commands
+	echo;
+	usage
 	exit 0
 }
 
@@ -94,11 +115,11 @@ do
 done
 
 case $_step in
-	remove)
+	delete|remove)
 	dependency_check
 	remove_kubeflow
 	;;
-	install)
+	install|spinup)
 	dependency_check
 	install_kubeflow
 	;;
