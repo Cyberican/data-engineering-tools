@@ -23,8 +23,8 @@ remove_kubeflow(){
 	if [ -n "$(juju models | egrep 'kubeflow')" ];
 	then
 		printf "\033[33mRemove, kubeflow model from JuJu\033[0m\n"
-		read -p "Are you sure?\n" _confirm
-		_confirm=$(printf $confirm | tr [:upper:] [:lower:])
+		read -p "Are you sure? [y|n] " confirm
+		_confirm=$(echo $confirm | tr [:upper:] [:lower:])
 		case $_confirm in
 			y|yes) juju destroy-model kubeflow --yes --destroy-storage --force;;
 		esac
@@ -46,6 +46,11 @@ add_to_config(){
 }
 
 install_kubeflow(){
+	# Create a controller
+	if [ -z "$(juju controllers)" ];
+	then
+		juju bootstrap
+	fi
 	# Add Kubeflow to JuJu
 	if [ -z "$(juju models | egrep 'kubeflow')" ];
 	then
@@ -62,7 +67,7 @@ install_kubeflow(){
 
 configure(){
 	# Extract ingress gateway IP Address
-	endpoint_ipaddr=$(kubectl -n kubeflow get svc istio-ingressgateway-workload -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
+	endpoint_ipaddr=$(sudo kubectl -n kubeflow get svc istio-ingressgateway-workload -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
 	printf "\033[35mFound, IP Address: \033[32m${endpoint_ipaddr}\033[0m\n"
 	# Define endpoint URL
 	endpoint_url="http://${endpoint_ipaddr}.nip.io"
@@ -75,7 +80,7 @@ configure(){
 
 extract_val(){
 	arg="${1}"
-	_arg=$(printf "${arg}" | cut -d':' -f2 | cut -d'=' -f2)
+	_arg=$(echo "${arg}" | cut -d':' -f2 | cut -d'=' -f2)
 	printf "${_arg}"
 }
 
