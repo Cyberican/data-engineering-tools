@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: cleanup-completed-pods
+  namespace: admin
+spec:
+  schedule: "*/2 * * * *"
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      activeDeadlineSeconds: 80
+      template:
+        spec:
+          containers:
+          - name: kubectl-delete-completed
+            image: bitnami/kubectl
+            command: ["kubectl","delete","pods","--field-selector=status.phase=Succeeded"]
+          restartPolicy: OnFailure
