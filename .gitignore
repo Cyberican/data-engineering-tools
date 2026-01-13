@@ -140,3 +140,5 @@ cleaning_sessions/cleaning/**
 cleaning_sessions/initial_dataset/**
 cleaning_sessions/.archives/**
 cleaning_sessions/v2/output.txt
+cleaning_sessions/v2/input.txt
+
