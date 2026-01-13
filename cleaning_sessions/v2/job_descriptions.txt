@@ -1,0 +1,120 @@
+ProjektmanagerÜberwacht den gesamten Lebenszyklus von Technologieprojekten, um sicherzustellen, dass sie Termine und Lieferungen einhalten.
+IT-ProjektmanagerVerwaltet technologieorientierte Projekte, gewährleistet eine optimale Nutzung der IT-Ressourcen und die Ausrichtung auf technologische Ziele.
+Software-ProjektmanagerÜberwacht Softwareentwicklungsprojekte von der Planung bis zur Ausführung und Wartung.
+Agile ProjektmanagerImplementiert Agile Methodologien, um Softwareentwicklungsprojekte effektiv zu verwalten.
+Digitaler ProjektmanagerVerwaltet digitale Projekte wie Website-Launches, digitale Marketinginitiativen und mobile Anwendungen.
+Projektmanager für IngenieurwesenKoordiniert Projekte zwischen Ingenieurteams zur Entwicklung neuer Technologielösungen oder Verbesserungen.
+DevOps-ProjektmanagerÜberwacht Projekte, die DevOps-Praktiken betreffen, mit Fokus auf kontinuierliche Integration und kontinuierliche Bereitstellung.
+Cybersecurity-ProjektmanagerVerwaltet Projekte zur Verbesserung der Cybersicherheitsmaßnahmen einer Organisation.
+Cloud-ProjektmanagerÜberwacht Projekte im Zusammenhang mit Cloud-Infrastruktur, von der Migration bis zur cloud-nativen Entwicklung.
+Projektmanager für RechenzentrenVerwaltet den Aufbau, die Erweiterung oder Konsolidierung von Rechenzentren.
+Netzwerk-ProjektmanagerVerwaltet Projekte, die Netzwerkinfrastruktur, Upgrades und Erweiterungen betreffen.
+Technischer ProjektmanagerLeitet Projekte mit einem starken Schwerpunkt auf technischen Lösungen und Innovation.
+KI-ProjektmanagerVerwaltet Projekte im Zusammenhang mit der Entwicklung und Implementierung von KI-Technologien.
+Projektmanager für SoftwareintegrationÜberwacht Projekte, die neue Softwaresysteme in die bestehende Infrastruktur integrieren.
+Projektmanager für TelekommunikationVerwaltet Projekte im Telekommunikationssektor von Technologieunternehmen, die sich auf Netzwerk- und Serviceverbesserungen konzentrieren.
+Projektmanager für ProduktentwicklungLeitet die Entwicklung neuer Technologieprodukte von der Konzeption bis zur Markteinführung.
+Projektmanager für Forschung und EntwicklungKoordiniert Forschungs- und Entwicklungsprojekte, die darauf abzielen, neue Technologien zu schaffen oder bestehende zu verbessern.
+E-Commerce-ProjektmanagerVerwaltet Projekte im Zusammenhang mit der Entwicklung und Verbesserung von E-Commerce-Plattformen.
+Projektmanager für technischen SupportÜberwacht Projekte zur Verbesserung der technischen Supportsysteme und -prozesse.
+Projektmanager für QualitätssicherungStellt sicher, dass alle Technologieprojekte die spezifizierten Anforderungen und Qualitätsstandards erfüllen.
+Scrum MasterFördert die Anwendung von Scrum-Praktiken in Softwareentwicklungsteams, um eine effiziente Projektdurchführung zu gewährleisten.
+Projektmanager für BenutzererfahrungVerwaltet Projekte, die darauf abzielen, die Benutzererfahrung auf Software- und Digitalplattformen zu verbessern.
+Projektmanager für DatenmanagementÜberwacht Projekte, die sich mit der Organisation, Speicherung und Nutzung von Daten befassen.
+Projektmanager für SicherheitssystemeVerwaltet die Implementierung und Aktualisierung von Sicherheitssystemen in einer technischen Umgebung.
+Projektmanager für InfrastrukturKoordiniert Projekte, die die zugrunde liegende IT-Infrastruktur betreffen, die technische Operationen unterstützt.
+Projektmanager für mobile EntwicklungLeitet Projekte, die auf die Erstellung oder Verbesserung mobiler Anwendungen abzielen.
+Projektmanager für InnovationTreibt innovative Projekte voran, von der Ideenfindung bis zur Ausführung, oft in Tech-Startups oder Innovationslaboren.
+Projektmanager für KundenimplementierungVerwaltet Projekte, die die Einführung von Technologieprodukten oder -diensten bei Kunden betreffen.
+SAP-ProjektmanagerSpezialisiert auf die Verwaltung von Projekten im Zusammenhang mit SAP-Softwareimplementierungen und -aktualisierungen in Technologieunternehmen.
+Blockchain-ProjektmanagerÜberwacht Projekte, die die Entwicklung und Anwendung von Blockchain-Technologie betreffen.
+Software Developer develops application software by writing code.
+Softwareentwickler entwickelt Anwendungssoftware durch das Schreiben von Code.
+Data Analyst interprets large data sets to identify trends and insights.
+Datenanalyst Interpretiert große Datenmengen, um Trends und Einsichten zu identifizieren.
+IT Project Manager Manages technical projects from inception to completion.
+IT-Projektmanager Verwaltet technische Projekte von der Konzeption bis zur Fertigstellung.
+Network Administrator Manages IT networks and solves network issues.
+Netzwerkadministrator Verwaltet IT-Netzwerke und löst Netzwerkprobleme.
+System Administrator Responsible for maintaining and configuring computer systems.
+Systemadministrator Verantwortlich für die Wartung und Konfiguration von Computersystemen.
+DevOps Engineer Optimizes software development and deployment through automation.
+DevOps-Ingenieur Optimiert die Softwareentwicklung und -bereitstellung durch Automatisierung.
+Product Manager develops product strategies and oversees product development.
+Produktmanager entwickelt Produktstrategien und überwacht die Produktentwicklung.
+UI/UX Designer Designs user interfaces and improves user experience.
+UI/UX-Designer Gestaltet Benutzeroberflächen und verbessert die Benutzererfahrung.
+Data Scientist Analyzes complex data to develop models and algorithms.
+Datenwissenschaftler Analysiert komplexe Daten, um Modelle und Algorithmen zu entwickeln.
+Security Engineer Protects computer systems from security threats.
+Sicherheitsingenieur Schützt Computersysteme vor Sicherheitsbedrohungen.
+Artificial Intelligence Engineer develops AI models and implements AI solutions.
+Künstliche Intelligenz Ingenieur entwickelt AI-Modelle und implementiert AI-Lösungen.
+Cloud Architect Designs and manages solutions in the cloud.
+Cloud-Architekt Entwirft und verwaltet Lösungen in der Cloud.
+Blockchain Developer develops blockchain applications and smart contracts.
+Blockchain-Entwickler entwickelt Blockchain-Anwendungen und Smart Contracts.
+Mobile Developer Creates applications for mobile devices.
+Mobile Entwickler Erstellt Anwendungen für mobile Geräte.
+Game Developer develops video games for various platforms.
+Spieleentwickler entwickelt Videospiele für verschiedene Plattformen.
+Embedded Systems Developer Programs software for embedded systems.
+Embedded Systems Entwickler Programmiert Software für eingebettete Systeme.
+Full Stack Developer Works on both frontend and backend developments.
+Full-Stack-Entwickler Arbeitet an Frontend- und Backend-Entwicklungen.
+Big Data Engineer Works with large data sets and data processing infrastructures.
+Big Data Ingenieur Arbeitet mit großen Datenmengen und Datenverarbeitungsinfrastrukturen.
+Cybersecurity Analyst Analyzes and responds to cybersecurity incidents.
+Cybersecurity-Analyst Analysiert und reagiert auf Cybersecurity-Vorfälle.
+Robotics Engineer Designs and develops robotic systems.
+Robotik-Ingenieur Entwirft und entwickelt robotische Systeme.
+Softwareentwickler entwickelt Anwendungssoftware durch das Schreiben von Code.
+Datenanalyst Interpretiert Datenmengen zur Identifizierung von Trends und Erkenntnissen.
+IT-Projektmanager Leitet technische Projekte von der Konzeption bis zur Fertigstellung.
+Netzwerkadministrator Verwaltet IT-Netzwerke und löst Netzwerkprobleme.
+Systemadministrator Verantwortlich für die Wartung und Konfiguration von Computersystemen.
+DevOps-Ingenieur Optimiert die Softwareentwicklung und -bereitstellung durch Automatisierung.
+Produktmanager entwickelt Produktstrategien und überwacht die Produktentwicklung.
+UI/UX-Designer Gestaltet Benutzeroberflächen und verbessert die Benutzererfahrung.
+Datenwissenschaftler Analysiert komplexe Daten zur Entwicklung von Modellen und Algorithmen.
+Sicherheitsingenieur Schützt Computersysteme vor Sicherheitsbedrohungen.
+Künstliche Intelligenz Ingenieur entwickelt AI-Modelle und implementiert AI-Lösungen.
+Cloud-Architekt Entwirft und verwaltet Lösungen in der Cloud.
+Blockchain-Entwickler entwickelt Blockchain-Anwendungen und Smart Contracts.
+Mobile Entwickler Erstellt Anwendungen für mobile Geräte.
+Spieleentwickler entwickelt Videospiele für verschiedene Plattformen.
+Embedded Systems Entwickler Programmiert Hardware-nahe Software für eingebettete Systeme.
+Full-Stack-Entwickler Arbeitet sowohl an Frontend- als auch Backend-Entwicklungen.
+Big Data Ingenieur Arbeitet mit großen Datenmengen und Datenverarbeitungsinfrastrukturen.
+Cybersecurity-Analyst Analysiert und reagiert auf Cyber-Sicherheitsvorfälle.
+Robotik-Ingenieur Entwirft und entwickelt robotische Systeme.
+Machine Learning Ingenieur entwickelt maschinelles Lernen Modelle und Algorithmen.
+Technischer Support-Spezialist Bietet technische Unterstützung und löst IT-Probleme.
+Business Intelligence Analyst Erstellt Berichte und Dashboards zur Entscheidungsfindung.
+Quantencomputing-Wissenschaftler Erforscht und entwickelt Quantencomputing-Algorithmen.
+Data Governance-Spezialist Verwaltet Datenrichtlinien und -standards zur Datensicherheit.
+Software-Architekt Entwirft die Struktur komplexer Softwareanwendungen.
+Firmware-Ingenieur entwickelt die Software, die direkt auf Hardware läuft.
+Technischer Schriftsteller Verfasst Handbücher und Dokumentationen für Technikprodukte.
+Digital Marketing Spezialist Verwendet digitale Kanäle zur Steigerung der Markenbekanntheit.
+Datenbank-Administrator Verwaltet und optimiert Datenbanken.
+Qualitätssicherungsingenieur Stellt sicher, dass Produkte Fehlerfrei sind.
+IT-Berater Berät Unternehmen bei der Implementierung von Technologielösungen.
+Cloud-Entwickler entwickelt und implementiert Cloud-basierte Anwendungen.
+IoT-Entwickler entwickelt Anwendungen für das Internet der Dinge.
+Systemingenieur entwickelt und implementiert komplexe Systemlösungen.
+Datenarchitekt Entwirft und verwaltet die Datenarchitektur eines Unternehmens.
+Ethical Hacker Testet die Sicherheit von IT-Systemen durch simulierte Angriffe.
+CRM-System-Administrator Verwaltet Kundenbeziehungsmanagement-Systeme.
+Webentwickler entwickelt Websites und Webanwendungen.
+IT-Auditor Prüft IT-Systeme und -Prozesse auf Compliance und Effizienz.
+Netzwerkarchitekt Entwirft und plant Unternehmensnetzwerke.
+UX-Forscher Erforscht Benutzerverhalten zur Verbesserung der UX.
+Scrum-Master Leitet und coacht Scrum-Teams.
+3D-Drucktechniker Arbeitet mit 3D-Drucktechnologien zur Herstellung von Objekten.
+Augmented Reality Entwickler entwickelt AR-Anwendungen und -Erfahrungen.
+Videospiele Designer Konzipiert das Gameplay und die Kunst für Videospiele.
+Telekommunikationsingenieur entwickelt und wartet Telekommunikationssysteme.
+Computer Vision Ingenieur entwickelt Technologien, die es Computern ermöglichen, visuell zu verstehen.
+Software-Tester Testet Software auf Fehler und Leistungsprobleme.
+Hardware-Ingenieur entwickelt und verbessert Computerhardware.
